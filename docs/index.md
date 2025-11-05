@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# <font color=brown size=12>**欢迎来到yt的个人主页！！！^_^** </font>
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## 我好像不知道该写些什么......
 
-## Commands
+`大费周章地把站建好了却不知道写什么啊...`
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+<font size=12>でも、大丈夫！とにかく、自己紹介を見てください！</font>
 
-## Project layout
+[点我去看我的个人信息](个人信息.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+~~感觉这个页面做得好丑XD~~

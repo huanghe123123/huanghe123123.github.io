@@ -1,3 +1,14 @@
-site_name: My Docs
+site_name: YT的个人网站
 theme:
   name: material
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  # 确保包含以下扩展来支持删除线
+  - attr_list
+  - pymdownx.tilde
+  - markdown.extensions.attr_list
