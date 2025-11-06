@@ -5,10 +5,22 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
-  - pymdownx.superfences
+  - admonition
   - pymdownx.tabbed
   - pymdownx.details
-  # 确保包含以下扩展来支持删除线
   - attr_list
   - pymdownx.tilde
   - markdown.extensions.attr_list
+  - footnotes
+  - pymdownx.tasklist:
+      clickable_checkbox: false
+      custom_checkbox: true  
+
+extra_css:
+  - styles/extra.css
+
+nav:
+  - 首页: index.md
+  - 关于本网站和我:
+      - 关于我: 个人信息.md
+      - 关于网站: 为何做这个网站.md
