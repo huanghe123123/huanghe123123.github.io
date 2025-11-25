@@ -15,9 +15,17 @@ markdown_extensions:
   - pymdownx.tasklist:
       clickable_checkbox: false
       custom_checkbox: true  
+  - pymdownx.arithmatex:
+      generic: true
 
 extra_css:
   - styles/extra.css
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/MathJax/2.7.0/MathJax.css
 
 nav:
   - 首页: index.md
@@ -28,3 +36,5 @@ nav:
   - 学习:
       - 线性代数:
           - 线代期中复习记录: learn/线性代数/线代期中复习记录.md
+      - 西方文明史:
+          - pre: learn/西方文明史/pre.md
